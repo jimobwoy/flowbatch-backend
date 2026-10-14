@@ -1,0 +1,13 @@
+{
+  "name": "flow-batch-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Accounts, Paystack billing and admin dashboard for Flow Batch Generator",
+  "main": "server.js",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/e2e.test.js",
+    "backup": "node --disable-warning=ExperimentalWarning scripts/backup.js"
+  }
+}
